@@ -1,0 +1,124 @@
+.home{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: (linear-gradient(123deg, #2C2C2C 0%, #1C1C1C 100%));
+    @media screen and (min-width: 1200px) {
+        padding-top: 170px;
+    padding-bottom: 30px;
+    }
+}
+
+
+
+.home_general_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.home_hello{
+    margin-bottom: 27px;
+    color: var(--text);
+
+font-size: 48px;
+
+font-weight: 600;
+line-height: normal;
+
+width: 205px;
+height: 39px;
+text-transform: uppercase;
+}
+
+.home_name{
+ margin-bottom: 27px;
+width: 447px;
+height: 136px;
+
+flex-shrink: 0;
+color: var(--text);
+font-size: 72px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.home_info{
+margin-bottom: 27px;
+    width: 430px;
+height: 74px;
+flex-shrink: 0;
+color: var(--text);
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+}
+
+.home_btn{
+    width: 200px;
+height: 47px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--orange, linear-gradient(135deg, #E2A300 0%, #E29500 100%));
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+color: #000;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.home_blue_box{
+    position: relative;
+    width: 575px;
+height: 575px;
+flex-shrink: 0;
+border-radius: 575px;
+border: 67px solid var(--blu, #00C4F0);
+box-shadow: 0px 0px 152px 0px rgba(0, 196, 240, 0.42);
+
+}
+
+.home_decor{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #414141 0%, #2D2D2D 100%);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--color-acent);
+    font-weight: bold;
+    text-shadow: 0px 0px 152px 0px rgba(0, 196, 240, 0.42);  
+}
+.home_html_box{
+   position: absolute;
+   left: -20px;
+   bottom: 20px;
+   z-index: 1;
+}
+
+.home_css_box{
+    position: absolute;
+    left: -80px;
+    bottom: 190px;
+}
+
+.home_js_box{
+    position: absolute;
+}
+.home_react_box{
+    position: absolute;
+    right: 0;
+}
+.home_img{
+    position: absolute;
+    top: -100px;
+ 
+}
