@@ -1,0 +1,67 @@
+.about{
+    background: linear-gradient(135deg, #414141 0%, #2D2D2D 100%);
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+
+.about_mod_box{
+    display: flex;
+
+}
+.left_img_box{
+    z-index: 1;
+display: flex;
+flex-direction: column;
+align-items: end;
+}
+.aboun_img_first{
+    margin-bottom: 147px;
+    width: 272px;
+height: 320px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 0px 6px #686868;
+}
+
+
+.about_img_second{
+    width: 250px;
+height: 281px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 0px 6px #686868;
+}
+
+
+.text_box{
+    border-radius: 14px;
+background: #2C2C2C;
+    padding: 63px;
+    width: 496px;
+height: 822px;
+flex-shrink: 0;
+}
+.about_title{
+    margin-top: -90px;
+    margin-bottom: 40px;
+    color: var(--text);
+font-size: 48px;
+line-height: normal;
+}
+
+
+.about_text{
+
+    color: #FFF;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+
+.about_img_third{
+    width: 287px;
+height: 427px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 0px 6px #686868;
+}
